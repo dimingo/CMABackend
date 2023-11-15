@@ -34,6 +34,10 @@ Start the local development server
 
     php artisan serve
 
+Running Tests
+
+    php artisan test
+
 You can now access the server at http://localhost:8000
 
 **TL;DR command list**
