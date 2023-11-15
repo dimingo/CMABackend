@@ -57,7 +57,7 @@ it('can update a product', function () {
 });
 
 
-it('cannot fetch a product', function () {
+it('cannot fetch a non existent product', function () {
     $response = $this->getJson("/api/products/10");
     $response->assertStatus(404)
         ->assertJson([
